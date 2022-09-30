@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageId>XamlU.Demo.GithubLibrary</PackageId>
+    <PackageVersion>1.0.7</PackageVersion>
+    <Title>XAMLU Demo GitHub Library</Title>
+    <Authors>Daren May</Authors>
+    <Description>This package contains code to support interacting with the GitHub API for the purposes of demonstrating how to consume authenticated APIs within XAMLU training courses. *This is not an attempt to create a fully featured GitHub API*.</Description>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <PackageReleaseNotes>Corrected issue with query string</PackageReleaseNotes>
+    <Copyright>Copyright 2017 (c) XAMLU. All rights reserved.</Copyright>
+    <PackageTags>xamlu demo git</PackageTags>
+    <Company>XAMLU</Company>
+    <PackageLicenseUrl>https://github.com/XAMLU/Demo.GithubLibrary/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/XAMLU/Demo.GithubLibrary</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/XAMLU/Demo.GithubLibrary</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageIconUrl>https://raw.githubusercontent.com/XAMLU/Demo.GithubLibrary/master/LOGO.png</PackageIconUrl>
+    <AssemblyName>XamlU.Demo.GitHubLibrary</AssemblyName>
+    <RootNamespace>XamlU.Demo.GitHubLibrary</RootNamespace>
+    <AssemblyVersion>1.0.7.0</AssemblyVersion>
+    <FileVersion>1.0.7.0</FileVersion>
+    <Version>1.0.7</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="10.0.3" />
+  </ItemGroup>
+
+</Project>
